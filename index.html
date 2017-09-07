@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Home</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Ceviche+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+		
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/">The Hogs</a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">Motorcycles</a>
+							</li>
+									
+							<li>
+								<a href="#">Learn to ride</a>
+							</li>
+									
+							<li>
+								<a href="#">Events</a>
+							</li>
+							<li>
+								<a href="#">Tours</a>
+							</li>
+						</ul>
+						
+						<form class="navbar-form pull-right">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+						
+					</div><!-- end nav-collapse -->
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			
+			<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>The Bike</h4>
+							<p>Learn how you can get one of these beasts in your city</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Events</h4>
+							<p>From bike rallies,Tours to member inductions,getting our biker logo,we do all.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Local chapters</h4>
+							<p>Get in touch with local chapters and you can organise your own tours!!</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+			<br>
+			<br>
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Ride A Chopper</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/chopper.jpg" alt="HTML5" class="img-circle">
+						
+						<p>Ever wanted to ride Harley chopper just for the sake of it? Being a member of HOGS has its own perks...:P</p>
+						
+						
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Customised Choppers</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/pistons.jpg" alt="CSS3" class="img-circle">
+						
+						<p>For cult followers,we have a dedicated garage to cater and fabricate customised choppers of the highest quality.</p>
+						
+						
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Desert Eagle Tours</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/d.jpg" alt="Bootstrap 3" class="img-circle">
+						
+						<p>You know you have arrived to a bikers haven when there is ample of beer and revving. The Tours wont Disappoint you.</p>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+			
+			
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>WIKI</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Our Local Chapters</a></li>
+							<li><a href="#tab2" data-toggle="tab">Upcoming Events</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location</h4>
+								
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8534796585027!2d77.62059714989364!3d12.917137190846933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14f6d4fa1ee5%3A0x3b3a111e90cddff2!2sSilk+Board+Flyover%2C+Madiwala%2C+1st+Stage%2C+Bommanahalli%2C+Bengaluru%2C+Karnataka+560068!5e0!3m2!1sen!2sin!4v1504694373703" width=100% height=300 frameborder=0 style="border:0 margin-left:0 margin-right:0" allowfullscreen></iframe>
+								
+								<p>Some of Our current local chapters are </p>
+								<p>Madiwala</p>
+								<br>
+								<p>Marthahalli</p>
+								<br>
+								<p>Kormangala</p>
+								<br>
+								<p>New Delhi</p>
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+								<h4>Upcoming Events</h4>
+								<p>Some of our upcoming events are:</p>
+								<br>
+								<p>Bacardi Festival Kolkata</p>
+								<br>
+								<p>Nh7 Weekender</p>
+								<br>
+								<p>Harley Davidson Rally New Delhi</p>
+								<hr>
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Wanna Join The HOGS????</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">Membership Form</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												
+												<p>Enter your details and we ll get back to you as sooon as we can!!!!</p>
+												
+												
+												<hr>
+												
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+								
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+				
+				<div class="col-sm-6">
+					<h3>Our History</h3>
+					<br>
+					<p>The HOGS was started on March 17, 1998, by the Salazar family, World War II veterans in Germany,Burma followed by an amalgamation of former members from different motorcycle clubs, such as the Pissed Off Bastards of Kathiawar. The name was suggested by Arvid Olsen, an associate of the founders, who had served in the Flying Tigers' "HOGS" squadron in China during World War II.[18] The name HOGS was inspired by the typical naming of American squadrons, or other fighting groups, with a fierce, death-defying title in World Wars I and II, e.g., the Flying Tigers (American Volunteer Group) in Burma and China fielded three squadrons of P-40s and the third Squadron was called HOGS. In 1960, the Howard Hughes film HOGS displayed extraordinary and dangerous feats of aviation, and it is believed that the World War II groups who used that name based it on the film.</p>
+
+					<p>The HOGS utilize a system of patches similar to military medals. Although the specific meaning of each patch is not publicly known, the patches identify specific or significant actions or beliefs of each biker. The official colors of the HOGS are black lettering displayed on a grey background—hence the club's nickname "Shades of Grey". These patches are worn on leather or denim jackets and vests.</p>
+
+					<p>Black and grey are also used to display the number 87 on many patches, as in "Support 87, Route 87". The 8 and 7 stand for the respective positions in the alphabet of H and G. These are used by friends and supporters of the club in deference to club rules, which purport to restrict the wearing of HOGS imagery to club members.</p>
+				</div><!-- end col-sm-6 -->
+			</div><!-- end moreInfo -->
+		
+			
+			<hr>
+			<br>
+			<br>
+			<br>
+
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/cust.jpg" alt="Customised Bikes">
+								
+								<div class="caption">
+									<h3>From Harleys To Fatboys</h3>
+									
+									<p>We make Customised bikes for very exclusive clientale</p>
+									<p>We encourage riders to visit our garage for the latest invigorating design in choppers</p>
+									
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+						
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/soa.jpg" alt="Accesories">
+								<div class="caption">
+									<h3>Accesories</h3>
+									
+									<p>You can now preorder biker patches and jackets if you want.</p>
+									<p>However we you become members of this exclusive club before doing so.</p>
+									
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+
+			<br>
+			<br>
+			<br>
+
+			<div class="row" id="more">
+				<div class="col-12">
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/pub.jpg" alt="Customised Bikes">
+								
+								<div class="caption">
+									<h3>Pub Gatherings</h3>
+									
+									<p>Every Friday we organize impromptu gatherings </p>
+									<p>You can contact your local chapters for the venue.</p>
+									
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+						
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/rehab.jpg" alt="Accesories">
+								<div class="caption">
+									<h3>Giving Back</h3>
+									
+									<p>Bikers have always been associated with drugs and violence</p>
+									<p>We aim to eradicate this and help people cope with these evils</p>
+									
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+			<br>
+			<br>
+			<br>
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/races.jpg" alt="Customised Bikes">
+								
+								<div class="caption">
+									<h3>Races</h3>
+									
+									<p>We organise races in every month for adrenaline junkies</p>
+									<p>All of these races are organised on race tracks and are completely legal</p>
+									
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+						
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/soa2.jpg" alt="Accesories">
+								<div class="caption">
+									<h3>Design Competition</h3>
+									
+									<p>You can now participate in our logo design competitoins</p>
+									<p>These designs will be for local chapters and will have our main logo design incorporated in them.</p>
+									
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->
+		</div><!-- end container -->
+		
+		
+		<footer>
+			<div class="container">
+			
+				Contact US<br>
+					<a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					<a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="#"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+					<a href="#"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
+			</div>      <!-- end of div for footer -->
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
+
