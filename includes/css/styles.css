@@ -80,6 +80,7 @@ ul.unstyled {
 
 #myCarousel {
 	margin-top: 60px;
+	background-color: black;
 }
 
 .carousel-caption {
@@ -98,15 +99,15 @@ ul.unstyled {
 #myCarousel .item { height: 400px; }
 
 #slide1 {
-	background: url('../../images/car_mid_1.jpg') top center no-repeat;
+	background: url('../../images/car_l_1.jpg') top center no-repeat;
 }
 
 #slide2 {
-	background: url('../../images/car_mid_3jpg') top center no-repeat;
+	background: url('../../images/car_l_3.jpg') top center no-repeat;
 }
 
 #slide3 {
-	background: url('../../images/car_mid_2.jpg') top center no-repeat;
+	background: url('../../images/car_l_2.jpg') top center no-repeat;
 }
 
 
@@ -128,17 +129,23 @@ ul.unstyled {
 }
 
 .thumbnails {
-	margin: 20px 0;
+	margin-top:20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .thumbnail {
 	position: relative;
+	margin: 0 40 10px;
+	text-align: justify;
 }
 
-.thumbnail h3 {
-	font-size: 16px;
-	margin: 0 0 10px;
+.thumbnail h4 {
+	font-family: 'Ceviche One', cursive;
+	font-size: 30px;
+	margin: 0 40 10px;
 	line-height: 20px;
+	text-align: justify;
 }
 
 .thumbnail .price {
@@ -228,25 +235,28 @@ ul.unstyled {
 }
 
 /* Large desktop */
-@media (min-width: 12s00px) {
+@media (min-width: 1200px) {
 
 	#myCarousel .item { height: 500px; }
 	
 	#slide1 {
 		background: url('../../images/car_l_1.jpg') top center no-repeat;
+		
 	}
 	
 	#slide2 {
 		background: url('../../images/car_l_3.jpg') top center no-repeat;
+		
 	}
 	
 	#slide3 {
 		background: url('../../images/car_l_2.jpg') top center no-repeat;
+		
 	}
 
 }
 
-@media (min-width: 200px ) {
+@media (max-width: 200px ) {
 
 	#myCarousel .item { height: 310px; }
 	
@@ -333,10 +343,7 @@ footer{
 	font-size: 35px;
 	color:red;
 }
-.thumbnail h3{
-	font-family: 'Ceviche One', cursive;
-	font-size: 35px;
-}
+
 .thumbnail p{
 	font-family: 'Ceviche One', cursive;
 	font-size: 25px;
